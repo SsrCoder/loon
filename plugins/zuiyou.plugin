@@ -1,0 +1,12 @@
+#!name=最右去广告
+#!desc=移除最右APP内的广告
+#!icon=https://raw.githubusercontent.com/SsrCoder/loon/main/icons/zuiyou.jpg
+#!homepage=https://github.com/SsrCoder/loon
+#!author=SsrCoder
+
+[Rule]
+DOMAIN,api-access.pangolin-sdk-toutiao-b.com,REJECT
+DOMAIN,mercury-gateway.ixiaochuan.cn,REJECT
+
+[MITM]
+hostname = api-access.pangolin-sdk-toutiao-b.com,mercury-gateway.ixiaochuan.cn
