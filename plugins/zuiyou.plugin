@@ -7,6 +7,7 @@
 [Rule]
 DOMAIN,api-access.pangolin-sdk-toutiao-b.com,REJECT
 DOMAIN,mercury-gateway.ixiaochuan.cn,REJECT
+DOMAIN,adapi.izuiyou.com,REJECT
 
 [MITM]
-hostname = api-access.pangolin-sdk-toutiao-b.com,mercury-gateway.ixiaochuan.cn
+hostname = api-access.pangolin-sdk-toutiao-b.com,mercury-gateway.ixiaochuan.cn,adapi.izuiyou.com
