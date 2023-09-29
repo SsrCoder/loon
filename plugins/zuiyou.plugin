@@ -5,9 +5,9 @@
 #!author=SsrCoder
 
 [Rule]
-DOMAIN,api-access.pangolin-sdk-toutiao-b.com,REJECT
+DOMAIN-KEYWORD,pangolin-sdk-toutiao,REJECT
 DOMAIN,mercury-gateway.ixiaochuan.cn,REJECT
 DOMAIN,adapi.izuiyou.com,REJECT
 
 [MITM]
-hostname = api-access.pangolin-sdk-toutiao-b.com,mercury-gateway.ixiaochuan.cn,adapi.izuiyou.com
+hostname = api-access.pangolin-sdk-toutiao.com,api-access.pangolin-sdk-toutiao-b.com,mercury-gateway.ixiaochuan.cn,adapi.izuiyou.com
