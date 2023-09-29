@@ -1,0 +1,12 @@
+#!name=取消 ChatGPT 访问限制
+#!desc=移除 ChatGPT APP 在国内的访问限制
+#!icon=https://raw.githubusercontent.com/SsrCoder/loon/main/icons/chatgpt.png
+#!homepage=https://github.com/SsrCoder/loon
+#!author=SsrCoder
+#请在 Proxy 中选择一个国外（建议美国）节点
+
+[Rule]
+DOMAIN-SUFFIX,openai.com,PROXY
+
+[MITM]
+hostname = *.openai.com
