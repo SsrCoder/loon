@@ -8,6 +8,8 @@
 DOMAIN-KEYWORD,pangolin-sdk-toutiao,REJECT
 DOMAIN,mercury-gateway.ixiaochuan.cn,REJECT
 DOMAIN,adapi.izuiyou.com,REJECT
+DOMAIN,open.e.kuaishou.com,REJECT
+DOMAIN,mi.gdt.qq.com,REJECT
 
 [MITM]
-hostname = api-access.pangolin-sdk-toutiao.com,api-access.pangolin-sdk-toutiao-b.com,mercury-gateway.ixiaochuan.cn,adapi.izuiyou.com
+hostname = api-access.pangolin-sdk-toutiao.com,api-access.pangolin-sdk-toutiao-b.com,mercury-gateway.ixiaochuan.cn,adapi.izuiyou.com,open.e.kuaishou.com,mi.gdt.qq.com
