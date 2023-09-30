@@ -1,0 +1,12 @@
+#!name=解锁 TikTok
+#!desc=解锁 TikTok
+#!icon=https://raw.githubusercontent.com/SsrCoder/loon/main/icons/tiktok.png
+#!homepage=https://github.com/SsrCoder/loon
+#!author=SsrCoder
+
+[Rule]
+USER-AGENT,tiktok*,PROXY
+USER-AGENT,TikTok*,PROXY
+
+[MITM]
+hostname = app-measurement.com
