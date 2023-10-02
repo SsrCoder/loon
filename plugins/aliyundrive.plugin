@@ -1,0 +1,12 @@
+#!name=阿里云盘自动签到
+#!desc=第一次安装需要打开阿里云盘获取 Cookie
+#!icon=https://raw.githubusercontent.com/SsrCoder/loon/main/icons/aliyundrive.png
+#!homepage=https://github.com/SsrCoder/loon
+#!author=SsrCoder
+
+[Script]
+http-response https?:\/\/api\.alipan\.com\/apps\/v2\/users\/home\/widgets script-path=https://raw.githubusercontent.com/SsrCoder/loon/main/scripts/aliyundrive_cookie.js,requires-body=1
+cron "0 0 0/6 * * *" script-path=https://raw.githubusercontent.com/SsrCoder/loon/main/scripts/aliyundrive_sign_in.js
+
+[MITM]
+hostname = api.alipan.com
