@@ -1,0 +1,12 @@
+#!name=解锁 New Bing 访问限制
+#!desc=解锁 New Bing 在国内的访问限制，推荐使用 Bing APP
+#!icon=https://raw.githubusercontent.com/SsrCoder/loon/main/icons/new_bing.png
+#!homepage=https://github.com/SsrCoder/loon
+#!author=SsrCoder
+#请在 Proxy 中选择一个国外（建议美国）节点
+
+[Rule]
+URL-REGEX,^https?:\/\/www\.bing\.com\/sydchat,PROXY
+
+[MITM]
+hostname = www.bing.com
