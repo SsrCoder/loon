@@ -1,0 +1,11 @@
+#!name=emby
+#!desc=emby
+#!icon=https://raw.githubusercontent.com/SsrCoder/loon/main/icons/aliyundrive.png
+#!homepage=https://github.com/SsrCoder/loon
+#!author=SsrCoder
+
+[Script]
+http-request ^https:\/\/(pub1cf|pub1).emby.wtf(.*?) script-path=https://raw.githubusercontent.com/SsrCoder/loon/main/scripts/emby.js
+
+[MITM]
+hostname = pub1cf.emby.wtf,pub1.emby.wtf
